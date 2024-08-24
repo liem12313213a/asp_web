@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{0AF46C9C-9911-47C5-AD83-F43359E4FFD7}|BT01\\BT01.csproj|solutionrelative:bt01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0AF46C9C-9911-47C5-AD83-F43359E4FFD7}|BT01\\BT01.csproj|d:\\bt\\asp_web\\bt01\\bt01\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{0AF46C9C-9911-47C5-AD83-F43359E4FFD7}|BT01\\BT01.csproj|solutionrelative:bt01\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0AF46C9C-9911-47C5-AD83-F43359E4FFD7}|BT01\\BT01.csproj|d:\\bt\\asp_web\\bt01\\bt01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AF46C9C-9911-47C5-AD83-F43359E4FFD7}|BT01\\BT01.csproj|solutionrelative:bt01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\BT\\asp_web\\BT01\\BT01\\.gitignore",
+              "RelativeDocumentMoniker": "BT01\\.gitignore",
+              "ToolTip": "D:\\BT\\asp_web\\BT01\\BT01\\.gitignore",
+              "RelativeToolTip": "BT01\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-24T09:41:57.834Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,23 +45,22 @@
               "RelativeDocumentMoniker": "BT01\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\BT\\asp_web\\BT01\\BT01\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "BT01\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-24T09:05:33.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\BT\\asp_web\\BT01\\BT01\\Program.cs",
               "RelativeDocumentMoniker": "BT01\\Program.cs",
               "ToolTip": "D:\\BT\\asp_web\\BT01\\BT01\\Program.cs",
               "RelativeToolTip": "BT01\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T09:04:45.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T09:04:45.289Z"
             }
           ]
         }
