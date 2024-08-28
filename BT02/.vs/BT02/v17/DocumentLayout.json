@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{BC33F043-C824-45B9-B5A2-F7EB38187EEA}|BT02\\BT02.csproj|d:\\bt\\asp_web\\bt02\\bt02\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BC33F043-C824-45B9-B5A2-F7EB38187EEA}|BT02\\BT02.csproj|solutionrelative:bt02\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC33F043-C824-45B9-B5A2-F7EB38187EEA}|BT02\\BT02.csproj|d:\\bt\\asp_web\\bt02\\bt02\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{BC33F043-C824-45B9-B5A2-F7EB38187EEA}|BT02\\BT02.csproj|solutionrelative:bt02\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\BT\\asp_web\\BT02\\BT02\\.gitignore",
+              "RelativeDocumentMoniker": "BT02\\.gitignore",
+              "ToolTip": "D:\\BT\\asp_web\\BT02\\BT02\\.gitignore",
+              "RelativeToolTip": "BT02\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-28T06:36:52.28Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "BT02\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\BT\\asp_web\\BT02\\BT02\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "BT02\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-24T09:51:31.586Z",
               "EditorCaption": ""
