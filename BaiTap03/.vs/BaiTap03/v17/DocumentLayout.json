@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "BaiTap03\\Views\\Nhom\\Index.cshtml",
               "ToolTip": "D:\\BT\\asp_web\\BaiTap03\\BaiTap03\\Views\\Nhom\\Index.cshtml",
               "RelativeToolTip": "BaiTap03\\Views\\Nhom\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-31T07:29:12.225Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "BaiTap03\\Controllers\\NhomController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T07:06:49.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T07:06:49.694Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "BaiTap03\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-31T07:01:32.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T07:01:32.015Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "BaiTap03\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-31T07:00:46.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T07:00:46.977Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "BaiTap03\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-31T06:54:22.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T06:54:22.966Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "BaiTap03\\Program.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAAACIAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T06:52:38.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T06:52:38.259Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "BaiTap03\\.gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-31T06:51:12.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T06:51:12.876Z"
             }
           ]
         }
