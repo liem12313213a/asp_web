@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<header>
+    <h2>Bài Tập</h2>
+</header>
+
+<section>
+    <nav>
+        <ul>
+            <li>Họ tên: @ViewBag.HoTen</li>
+            <li>MSSV: @ViewBag.MSSV</li>
+        </ul>
+    </nav>
+    <article>
+        <a href="@Url.Action("Profile","Tuan02")">
+            <img src="~/images/Artoria Pendragon.png" title="Huỳnh Thanh Liêm"/>
+        </a>
+        <h3 style="text-align: center;">Sinh viên Trường Công Nghệ Đồng Nai</h3>
+        <h4 style="text-align: center;">Sinh viên Khoa Công Nghệ Thông Tin</h4>
+    </article>
+</section>
+<footer>
+    <p>copyright © @ViewBag.HoTen - @ViewBag.Nam</p>
+</footer>

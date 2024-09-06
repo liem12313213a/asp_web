@@ -1,0 +1,66 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #87CEFA;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav {
+    float: left;
+    width: 25%;
+    height: 300px;
+    background: #DDA0DD;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+article {
+    float: left;
+    padding: 10px;
+    width: 75%;
+    height: 300px;
+    background-color: #90EE90;
+    box-sizing: border-box;
+    text-align: center; /* Căn giữa toàn bộ nội dung trong article */
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #F4A460;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        float: none;
+        width: auto;
+    }
+}
+
+img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}

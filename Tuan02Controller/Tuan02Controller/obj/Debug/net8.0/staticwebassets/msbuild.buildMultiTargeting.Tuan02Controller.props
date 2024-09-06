@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Tuan02Controller.props" />
+</Project>
