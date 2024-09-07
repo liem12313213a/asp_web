@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tuan02Controller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45b471e9b4d8f71bab12cde3699ecb279d2ef2dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9983f4e5e1a08a1b850a6ea3d0345869b3de3f22")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tuan02Controller")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tuan02Controller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

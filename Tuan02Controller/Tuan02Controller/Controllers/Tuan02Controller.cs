@@ -38,6 +38,8 @@ namespace Tuan02Controller.Controllers
                     if (B == 0) 
                     { 
                         ViewBag.Loi = "Không thể chia cho 0!";
+                        kiemtra = false;
+                        ViewBag.kiemtra = kiemtra;
                         return View("MayTinh"); 
                     }
                     result = A / B; 
