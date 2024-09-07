@@ -2,8 +2,11 @@
 @{
     ViewData["Title"] = "MayTinh";
 }
-@if (ViewBag.Result != null)
+@if (ViewBag.Kiemtra == false)
 {
-    <h1>Kết quả: @ViewBag.Result</h1>
+    <h1>@ViewBag.Loi</h1>
 }
-
+ else
+{
+    <h2>Kết quả: @ViewBag.Result</h2>
+}
