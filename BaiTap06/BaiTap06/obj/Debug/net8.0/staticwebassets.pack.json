@@ -1,0 +1,1533 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaiTap06.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BaiTap06.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\api\\config.php",
+      "PackagePath": "staticwebassets\\api\\config.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\api\\tweet.php",
+      "PackagePath": "staticwebassets\\api\\tweet.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\api\\twitteroauth\\OAuth.php",
+      "PackagePath": "staticwebassets\\api\\twitteroauth\\OAuth.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\api\\twitteroauth\\twitteroauth.php",
+      "PackagePath": "staticwebassets\\api\\twitteroauth\\twitteroauth.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\scss\\_banner.scss",
+      "PackagePath": "staticwebassets\\fonts\\scss\\_banner.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\scss\\_blog.scss",
+      "PackagePath": "staticwebassets\\fonts\\scss\\_blog.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\scss\\_button.scss",
+      "PackagePath": "staticwebassets\\fonts\\scss\\_button.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\scss\\_contact.scss",
+      "PackagePath": "staticwebassets\\fonts\\scss\\_contact.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\scss\\_feature.scss",
+      "PackagePath": "staticwebassets\\fonts\\scss\\_feature.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\fonts\\scss\\_footer.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\scss\\_header.scss",
+      "PackagePath": "staticwebassets\\fonts\\scss\\_header.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\scss\\_predefin.scss",
+      "PackagePath": "staticwebassets\\fonts\\scss\\_predefin.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\scss\\_service.scss",
+      "PackagePath": "staticwebassets\\fonts\\scss\\_service.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\scss\\_slider.scss",
+      "PackagePath": "staticwebassets\\fonts\\scss\\_slider.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\scss\\_testimonials.scss",
+      "PackagePath": "staticwebassets\\fonts\\scss\\_testimonials.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\fonts\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\fonts\\scss\\style.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\animate-css\\animate.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\animate-css\\animate.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\counterup\\apear.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\counterup\\apear.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\counterup\\countto.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\counterup\\countto.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\counterup\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\counterup\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\counterup\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\counterup\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\elegant-icon\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\elegant-icon\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\elegant-icon\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\elegant-icon\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\elegant-icon\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\elegant-icon\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\elegant-icon\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\elegant-icon\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\elegant-icon\\style.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\elegant-icon\\style.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\owl-carousel\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\owl-carousel\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\owl-carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\owl-carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\owl-carousel\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\owl-carousel\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\parallaxer\\jquery.parallax-1.1.3.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\parallaxer\\jquery.parallax-1.1.3.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\coloredbg.png",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\coloredbg.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\gridtile.png",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\gridtile.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\gridtile_3x3.png",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\gridtile_3x3.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\gridtile_3x3_white.png",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\gridtile_3x3_white.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\gridtile_white.png",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\gridtile_white.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\loader.gif",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\loader.gif"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\sources\\fb.png",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\sources\\fb.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\sources\\fr.png",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\sources\\fr.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\sources\\ig.png",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\sources\\ig.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\sources\\post.png",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\sources\\post.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\sources\\revolution_slide1.png",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\sources\\revolution_slide1.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\sources\\revolution_slide2.png",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\sources\\revolution_slide2.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\sources\\tw.png",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\sources\\tw.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\sources\\vm.png",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\sources\\vm.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\sources\\wc.png",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\sources\\wc.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\sources\\yt.png",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\sources\\yt.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\svg\\index.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\svg\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\assets\\svg\\svg.zip",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\assets\\svg\\svg.zip"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\closedhand.cur",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\closedhand.cur"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\index.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\layers.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\layers.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\navigation-skins\\ares.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\navigation-skins\\ares.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\navigation-skins\\custom.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\navigation-skins\\custom.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\navigation-skins\\dione.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\navigation-skins\\dione.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\navigation-skins\\erinyen.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\navigation-skins\\erinyen.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\navigation-skins\\gyges.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\navigation-skins\\gyges.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\navigation-skins\\hades.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\navigation-skins\\hades.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\navigation-skins\\hebe.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\navigation-skins\\hebe.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\navigation-skins\\hephaistos.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\navigation-skins\\hephaistos.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\navigation-skins\\hermes.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\navigation-skins\\hermes.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\navigation-skins\\hesperiden.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\navigation-skins\\hesperiden.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\navigation-skins\\metis.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\navigation-skins\\metis.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\navigation-skins\\persephone.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\navigation-skins\\persephone.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\navigation-skins\\uranus.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\navigation-skins\\uranus.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\navigation-skins\\zeus.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\navigation-skins\\zeus.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\navigation.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\navigation.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\openhand.cur",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\openhand.cur"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\settings-ver.5.3.1.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\settings-ver.5.3.1.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\css\\settings.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\css\\settings.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\font-awesome\\index.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\font-awesome\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\index.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\css\\helper.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\css\\helper.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\css\\index.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\css\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.eot",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.eot"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.svg",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.svg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.ttf"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.woff",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.woff"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\index.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\index.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\revicons\\index.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\revicons\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\revicons\\revicons.eot",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\revicons\\revicons.eot"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\revicons\\revicons.svg",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\revicons\\revicons.svg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\revicons\\revicons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\revicons\\revicons.ttf"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\fonts\\revicons\\revicons.woff",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\fonts\\revicons\\revicons.woff"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\index.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\info.cfg",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\info.cfg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\index.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.actions.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.actions.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.carousel.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.carousel.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.migration.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.migration.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.navigation.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.navigation.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.parallax.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.parallax.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.video.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\revolution.extension.video.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\source\\index.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\source\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.actions.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.actions.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.carousel.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.carousel.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.kenburn.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.kenburn.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.layeranimation.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.layeranimation.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.migration.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.migration.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.navigation.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.navigation.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.parallax.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.parallax.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.slideanims.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.slideanims.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.video.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.video.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\index.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\jquery.themepunch.enablelog.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\jquery.themepunch.enablelog.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\jquery.themepunch.revolution.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\jquery.themepunch.revolution.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\jquery.themepunch.tools.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\jquery.themepunch.tools.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\source\\index.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\source\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\source\\jquery.themepunch.enablelog.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\source\\jquery.themepunch.enablelog.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\source\\jquery.themepunch.revolution.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\source\\jquery.themepunch.revolution.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\js\\source\\jquery.themepunch.tools.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\js\\source\\jquery.themepunch.tools.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\php\\facebook\\class-facebook.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\php\\facebook\\class-facebook.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\php\\flickr\\class-flickr.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\php\\flickr\\class-flickr.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\php\\instagram\\class-instagram.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\php\\instagram\\class-instagram.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\php\\twitter\\RestApi.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\php\\twitter\\RestApi.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\php\\twitter\\class-twitter.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\php\\twitter\\class-twitter.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\php\\twitter\\connection\\Application.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\php\\twitter\\connection\\Application.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\php\\twitter\\connection\\ConnectionAbstract.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\php\\twitter\\connection\\ConnectionAbstract.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\php\\twitter\\connection\\User.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\php\\twitter\\connection\\User.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\php\\vimeo\\class-vimeo.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\php\\vimeo\\class-vimeo.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\revolution\\php\\youtube\\class-youtube.php",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\revolution\\php\\youtube\\class-youtube.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\themify-icon\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\themify-icon\\fonts\\themify.eot"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\themify-icon\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\themify-icon\\fonts\\themify.svg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\themify-icon\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\themify-icon\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\themify-icon\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\themify-icon\\fonts\\themify.woff"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\themify-icon\\themify-icons.css",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\themify-icon\\themify-icons.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\tweet\\grabbing.png",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\tweet\\grabbing.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\tweet\\min\\scripts.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\tweet\\min\\scripts.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\tweet\\script.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\tweet\\script.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\fonts\\vendors\\tweet\\tweetie.min.js",
+      "PackagePath": "staticwebassets\\fonts\\vendors\\tweet\\tweetie.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\img\\banner\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-1.jpg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\img\\blog\\l-news\\l-news-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\l-news\\l-news-1.jpg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\img\\blog\\l-news\\l-news-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\l-news\\l-news-2.jpg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\img\\blog\\l-news\\l-news-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\l-news\\l-news-3.jpg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\img\\dotted-icon.png",
+      "PackagePath": "staticwebassets\\img\\dotted-icon.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\img\\fav-icon.png",
+      "PackagePath": "staticwebassets\\img\\fav-icon.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\img\\feature-right.jpg",
+      "PackagePath": "staticwebassets\\img\\feature-right.jpg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\img\\home-slider\\slider-1.jpg",
+      "PackagePath": "staticwebassets\\img\\home-slider\\slider-1.jpg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\img\\indus-laptop.png",
+      "PackagePath": "staticwebassets\\img\\indus-laptop.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\img\\map-marker.png",
+      "PackagePath": "staticwebassets\\img\\map-marker.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\img\\play-video.png",
+      "PackagePath": "staticwebassets\\img\\play-video.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\img\\project-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\project-bg.jpg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\img\\service-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\service-bg.jpg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\img\\static-1.jpg",
+      "PackagePath": "staticwebassets\\img\\static-1.jpg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\img\\testimonials-1.png",
+      "PackagePath": "staticwebassets\\img\\testimonials-1.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\js\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\js\\gmaps.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\js\\jquery.form.js",
+      "PackagePath": "staticwebassets\\js\\jquery.form.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\js\\theme.js",
+      "PackagePath": "staticwebassets\\js\\theme.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\scss\\_banner.scss",
+      "PackagePath": "staticwebassets\\scss\\_banner.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\scss\\_blog.scss",
+      "PackagePath": "staticwebassets\\scss\\_blog.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\scss\\_button.scss",
+      "PackagePath": "staticwebassets\\scss\\_button.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\scss\\_contact.scss",
+      "PackagePath": "staticwebassets\\scss\\_contact.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\scss\\_feature.scss",
+      "PackagePath": "staticwebassets\\scss\\_feature.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\_footer.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\scss\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\_header.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\scss\\_predefin.scss",
+      "PackagePath": "staticwebassets\\scss\\_predefin.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\scss\\_service.scss",
+      "PackagePath": "staticwebassets\\scss\\_service.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\scss\\_slider.scss",
+      "PackagePath": "staticwebassets\\scss\\_slider.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\scss\\_testimonials.scss",
+      "PackagePath": "staticwebassets\\scss\\_testimonials.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\animate-css\\animate.css",
+      "PackagePath": "staticwebassets\\vendors\\animate-css\\animate.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\counterup\\apear.js",
+      "PackagePath": "staticwebassets\\vendors\\counterup\\apear.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\counterup\\countto.js",
+      "PackagePath": "staticwebassets\\vendors\\counterup\\countto.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\counterup\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\vendors\\counterup\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\counterup\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\vendors\\counterup\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\elegant-icon\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\vendors\\elegant-icon\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\elegant-icon\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\vendors\\elegant-icon\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\elegant-icon\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\vendors\\elegant-icon\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\elegant-icon\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\vendors\\elegant-icon\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\elegant-icon\\style.css",
+      "PackagePath": "staticwebassets\\vendors\\elegant-icon\\style.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\owl-carousel\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\vendors\\owl-carousel\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\owl-carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\vendors\\owl-carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\owl-carousel\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\vendors\\owl-carousel\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\parallaxer\\jquery.parallax-1.1.3.js",
+      "PackagePath": "staticwebassets\\vendors\\parallaxer\\jquery.parallax-1.1.3.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\coloredbg.png",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\coloredbg.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\gridtile.png",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\gridtile.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\gridtile_3x3.png",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\gridtile_3x3.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\gridtile_3x3_white.png",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\gridtile_3x3_white.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\gridtile_white.png",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\gridtile_white.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\loader.gif",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\loader.gif"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\sources\\fb.png",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\sources\\fb.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\sources\\fr.png",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\sources\\fr.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\sources\\ig.png",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\sources\\ig.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\sources\\post.png",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\sources\\post.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\sources\\revolution_slide1.png",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\sources\\revolution_slide1.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\sources\\revolution_slide2.png",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\sources\\revolution_slide2.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\sources\\tw.png",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\sources\\tw.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\sources\\vm.png",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\sources\\vm.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\sources\\wc.png",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\sources\\wc.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\sources\\yt.png",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\sources\\yt.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\svg\\index.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\svg\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\assets\\svg\\svg.zip",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\assets\\svg\\svg.zip"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\closedhand.cur",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\closedhand.cur"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\index.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\layers.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\layers.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\navigation-skins\\ares.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\navigation-skins\\ares.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\navigation-skins\\custom.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\navigation-skins\\custom.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\navigation-skins\\dione.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\navigation-skins\\dione.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\navigation-skins\\erinyen.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\navigation-skins\\erinyen.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\navigation-skins\\gyges.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\navigation-skins\\gyges.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\navigation-skins\\hades.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\navigation-skins\\hades.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\navigation-skins\\hebe.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\navigation-skins\\hebe.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\navigation-skins\\hephaistos.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\navigation-skins\\hephaistos.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\navigation-skins\\hermes.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\navigation-skins\\hermes.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\navigation-skins\\hesperiden.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\navigation-skins\\hesperiden.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\navigation-skins\\metis.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\navigation-skins\\metis.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\navigation-skins\\persephone.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\navigation-skins\\persephone.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\navigation-skins\\uranus.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\navigation-skins\\uranus.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\navigation-skins\\zeus.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\navigation-skins\\zeus.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\navigation.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\navigation.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\openhand.cur",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\openhand.cur"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\settings-ver.5.3.1.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\settings-ver.5.3.1.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\css\\settings.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\css\\settings.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\font-awesome\\index.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\font-awesome\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\index.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\css\\helper.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\css\\helper.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\css\\index.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\css\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.eot",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.eot"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.svg",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.svg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.ttf",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.ttf"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.woff",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.woff"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\index.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\index.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\pe-icon-7-stroke\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\revicons\\index.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\revicons\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\revicons\\revicons.eot",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\revicons\\revicons.eot"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\revicons\\revicons.svg",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\revicons\\revicons.svg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\revicons\\revicons.ttf",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\revicons\\revicons.ttf"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\fonts\\revicons\\revicons.woff",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\fonts\\revicons\\revicons.woff"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\index.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\info.cfg",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\info.cfg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\index.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\revolution.extension.actions.min.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\revolution.extension.actions.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\revolution.extension.carousel.min.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\revolution.extension.carousel.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\revolution.extension.migration.min.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\revolution.extension.migration.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\revolution.extension.navigation.min.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\revolution.extension.navigation.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\revolution.extension.parallax.min.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\revolution.extension.parallax.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\revolution.extension.video.min.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\revolution.extension.video.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\source\\index.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\source\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.actions.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.actions.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.carousel.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.carousel.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.kenburn.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.kenburn.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.layeranimation.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.layeranimation.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.migration.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.migration.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.navigation.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.navigation.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.parallax.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.parallax.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.slideanims.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.slideanims.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.video.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\extensions\\source\\revolution.extension.video.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\index.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\jquery.themepunch.enablelog.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\jquery.themepunch.enablelog.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\jquery.themepunch.revolution.min.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\jquery.themepunch.revolution.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\jquery.themepunch.tools.min.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\jquery.themepunch.tools.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\source\\index.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\source\\index.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\source\\jquery.themepunch.enablelog.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\source\\jquery.themepunch.enablelog.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\source\\jquery.themepunch.revolution.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\source\\jquery.themepunch.revolution.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\js\\source\\jquery.themepunch.tools.min.js",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\js\\source\\jquery.themepunch.tools.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\php\\facebook\\class-facebook.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\php\\facebook\\class-facebook.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\php\\flickr\\class-flickr.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\php\\flickr\\class-flickr.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\php\\instagram\\class-instagram.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\php\\instagram\\class-instagram.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\php\\twitter\\RestApi.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\php\\twitter\\RestApi.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\php\\twitter\\class-twitter.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\php\\twitter\\class-twitter.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\php\\twitter\\connection\\Application.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\php\\twitter\\connection\\Application.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\php\\twitter\\connection\\ConnectionAbstract.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\php\\twitter\\connection\\ConnectionAbstract.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\php\\twitter\\connection\\User.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\php\\twitter\\connection\\User.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\php\\vimeo\\class-vimeo.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\php\\vimeo\\class-vimeo.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\revolution\\php\\youtube\\class-youtube.php",
+      "PackagePath": "staticwebassets\\vendors\\revolution\\php\\youtube\\class-youtube.php"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\themify-icon\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\vendors\\themify-icon\\fonts\\themify.eot"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\themify-icon\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\vendors\\themify-icon\\fonts\\themify.svg"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\themify-icon\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\vendors\\themify-icon\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\themify-icon\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\vendors\\themify-icon\\fonts\\themify.woff"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\themify-icon\\themify-icons.css",
+      "PackagePath": "staticwebassets\\vendors\\themify-icon\\themify-icons.css"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\tweet\\grabbing.png",
+      "PackagePath": "staticwebassets\\vendors\\tweet\\grabbing.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\tweet\\min\\scripts.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tweet\\min\\scripts.min.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\tweet\\script.js",
+      "PackagePath": "staticwebassets\\vendors\\tweet\\script.js"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTap06\\BaiTap06\\wwwroot\\vendors\\tweet\\tweetie.min.js",
+      "PackagePath": "staticwebassets\\vendors\\tweet\\tweetie.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BaiTap06.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BaiTap06.props",
+      "PackagePath": "build\\BaiTap06.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BaiTap06.props",
+      "PackagePath": "buildMultiTargeting\\BaiTap06.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BaiTap06.props",
+      "PackagePath": "buildTransitive\\BaiTap06.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
