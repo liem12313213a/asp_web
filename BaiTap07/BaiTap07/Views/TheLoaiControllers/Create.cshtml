@@ -1,0 +1,12 @@
+﻿@model TheLoai
+<div class="container">
+    <h3>Thêm thể loại</h3>
+    <form method="post">
+        <label asp-for="Name">Tên Thể Loại</label>
+        <input asp-for="Name" type="text" class="form-control"/> 
+
+        <label asp-for="DateCreated">Ngày Tạo</label>
+        <input asp-for="DateCreated" type="date" class="form-control" />
+        <button type="submit" class="btn btn-primary">Tạo mới</button>
+    </form>
+</div>

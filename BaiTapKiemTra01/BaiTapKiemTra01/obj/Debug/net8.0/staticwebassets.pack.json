@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\img\\1.png"
     },
     {
+      "Id": "D:\\BT\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\img\\10.png",
+      "PackagePath": "staticwebassets\\img\\10.png"
+    },
+    {
       "Id": "D:\\BT\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\img\\2.png",
       "PackagePath": "staticwebassets\\img\\2.png"
     },
@@ -43,6 +47,26 @@
     {
       "Id": "D:\\BT\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\img\\5.png",
       "PackagePath": "staticwebassets\\img\\5.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\img\\6.png",
+      "PackagePath": "staticwebassets\\img\\6.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\img\\7.png",
+      "PackagePath": "staticwebassets\\img\\7.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\img\\8.png",
+      "PackagePath": "staticwebassets\\img\\8.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\img\\9.png",
+      "PackagePath": "staticwebassets\\img\\9.png"
+    },
+    {
+      "Id": "D:\\BT\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\img\\anhchup\\Screenshot 2024-09-14 150021.png",
+      "PackagePath": "staticwebassets\\img\\anhchup\\Screenshot 2024-09-14 150021.png"
     },
     {
       "Id": "D:\\BT\\asp_web\\BaiTapKiemTra01\\BaiTapKiemTra01\\wwwroot\\img\\apple-touch-icon-ipad-retina.png",

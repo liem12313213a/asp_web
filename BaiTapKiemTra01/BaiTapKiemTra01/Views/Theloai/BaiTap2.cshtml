@@ -1,19 +1,8 @@
-﻿@model List<SanPhamViewModel>
-
-<div class="container">
-    <h3>Danh sách sản phẩm</h3>
-    <div class="row">
-        @foreach (var sanPham in Model)
-        {
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="@sanPham.Anhmota" alt="@sanPham.TenSanPham" class="card-img-top" />
-                    <div class="card-body">
-                        <h5 class="card-title">@sanPham.TenSanPham</h5>
-                        <p class="card-text">Giá bán: @sanPham.GiaBan.ToString("C")</p>
-                    </div>
-                </div>
-            </div>
-        }
-    </div>
-</div>
+﻿@model SanPhamViewModel
+@if (Model.TenSanPham != null && Model.GiaBan != null)
+{
+    <h3>Thông tin sản phẩm</h3>
+    <p>Tài khoản: @Model.TenSanPham</p>
+    <p>Mật khẩu: @Model.GiaBan</p>
+    <p>Mật khẩu: <img src="@Url.Content(Model.Anhmota)" width="100" height="70" /></p>
+}

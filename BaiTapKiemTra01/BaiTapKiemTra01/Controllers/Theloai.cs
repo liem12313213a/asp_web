@@ -21,36 +21,36 @@ namespace BaiTapKiemTra01.Controllers
         {
         var sanPhamList = new List<SanPhamViewModel>
         {
-        new SanPhamViewModel
-        {
-            TenSanPham = "Sản phẩm 1",
-            GiaBan = 100000,
-            Anhmota = "~/wwwrot/img/1.png" 
-        },
-        new SanPhamViewModel
-        {
-            TenSanPham = "Sản phẩm 2",
-            GiaBan = 200000,
-            Anhmota = "~/wwwrot/img/2.png"
-        },
-        new SanPhamViewModel
-        {
-            TenSanPham = "Sản phẩm 3",
-            GiaBan = 300000,
-            Anhmota = "~/wwwrot/images/3.png"
-        },
-        new SanPhamViewModel
-        {
-            TenSanPham = "Sản phẩm 4",
-            GiaBan = 400000,
-            Anhmota = "/wwwrot/img/4.png"
-        },
-        new SanPhamViewModel
-        {
-            TenSanPham = "Sản phẩm 5",
-            GiaBan = 500000,
-            Anhmota = "~/wwwrot/img/5.png"
-        }
+         new SanPhamViewModel
+    {
+        TenSanPham = "Sản phẩm 1",
+        GiaBan = 100000,
+        Anhmota = "~/img/1.png"
+    },
+    new SanPhamViewModel
+    {
+        TenSanPham = "Sản phẩm 2",
+        GiaBan = 200000,
+        Anhmota = "~/img/2.png"
+    },
+    new SanPhamViewModel
+    {
+        TenSanPham = "Sản phẩm 3",
+        GiaBan = 300000,
+        Anhmota = "~/img/3.png" 
+    },
+    new SanPhamViewModel
+    {
+        TenSanPham = "Sản phẩm 4",
+        GiaBan = 400000,
+        Anhmota = "~/img/4.png"
+    },
+    new SanPhamViewModel
+    {
+        TenSanPham = "Sản phẩm 5",
+        GiaBan = 500000,
+        Anhmota = "~/img/5.png" 
+    }
         };
 
             return View(sanPhamList);
