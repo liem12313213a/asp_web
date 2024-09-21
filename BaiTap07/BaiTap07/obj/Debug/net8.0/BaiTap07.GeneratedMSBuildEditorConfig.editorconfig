@@ -54,6 +54,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlTG9haUNvbnRyb2xsZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/BT/asp_web/BaiTap07/BaiTap07/Views/TheLoaiControllers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlTG9haUNvbnRyb2xsZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BT/asp_web/BaiTap07/BaiTap07/Views/TheLoaiControllers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlTG9haUNvbnRyb2xsZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BT/asp_web/BaiTap07/BaiTap07/Views/TheLoaiControllers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlTG9haUNvbnRyb2xsZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/BT/asp_web/BaiTap07/BaiTap07/Views/TheLoaiControllers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlTG9haUNvbnRyb2xsZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
