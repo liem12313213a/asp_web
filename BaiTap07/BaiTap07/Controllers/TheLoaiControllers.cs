@@ -85,23 +85,24 @@ namespace BaiTap07.Controllers
             }
 
             var theloai = _db.TheLoai.Find(id);
-            if (theloai == null)
-            {
-                return NotFound();
-            }
-
             return View(theloai);
         }
-        [HttpPost]
-        public IActionResult Details(TheLoai theloai)
+        [HttpGet]
+        public IActionResult Search(String searchString)
         {
-            if (ModelState.IsValid)
+            if (!string.IsNullOrEmpty(searchString))
             {
-                _db.TheLoai.Update(theloai);
-                _db.SaveChanges();
-                return RedirectToAction("Index"); 
+                var theloai = _db.TheLoai.
+                    Where(tl => tl.Name.Contains(searchString)).ToList();
+                ViewBag.SearchString = searchString;
+                ViewBag.TheLoai = theloai;
             }
-            return View(theloai); 
+            else
+            {
+                var theloai = _db.TheLoai.ToList();
+                ViewBag.TheLoai = theloai;
+            }
+            return View("Index");
         }
     }
 }

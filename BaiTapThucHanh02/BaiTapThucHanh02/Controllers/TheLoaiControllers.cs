@@ -103,6 +103,25 @@ namespace BaiTapThucHanh02.Controllers
             }
             return View(theloai);
         }
+        [HttpGet]
+        public IActionResult Search(String searchString)
+        {
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                var theloai = _db.TheLoai.
+                    Where(tl=>tl.Name.Contains(searchString)).ToList();
+                ViewBag.SearchString = searchString;
+                ViewBag.TheLoai = theloai;
+            }
+            else
+            {
+                var theloai = _db.TheLoai.ToList();
+                ViewBag.TheLoai = theloai;
+            }
+
+            return View("Index");
+
+        }
     }
 }
 

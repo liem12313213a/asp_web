@@ -1,4 +1,9 @@
 ﻿﻿<div class="container">
+    <form asp-action="Search" method="get">
+        <input type="text" name="searchingString" placeholder="Nhập thể loại cần tìm ..."
+               value="@ViewBag.SearchString"/>
+        <input type="submit" value="Tìm kiếm" />
+    </form>
     <table class="table">
         <thead>
             <tr>
