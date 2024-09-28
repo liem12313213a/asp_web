@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BaiKiemTraSo2.Models
+namespace BaiKiemTra02.Models
 {
     public class LopHoc
     {

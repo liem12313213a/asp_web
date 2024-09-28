@@ -1,14 +1,14 @@
 ﻿using BaiKiemTra02.Data;
-using BaiKiemTraSo2.Models;
+using BaiKiemTra02.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BaiKiemTraSo2.Controllers
+namespace BaiKiemTra02.Controllers
 {
-    public class TheLoaiController : Controller
+    public class LopHocControllers : Controller
     {
        
             private readonly ApplicationDbContext _db;
-            public TheLoaiController(ApplicationDbContext db)
+            public LopHocControllers(ApplicationDbContext db)
             {
                 _db = db;
             }

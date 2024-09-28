@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pM/GUnhzk1e1CDRdx615riRu6VzbW5eVOSVjy4EX2EM=",
+  "Hash": "Z+RufxTFbOX4XQgHyXMS0WzjUuq/rKYGxQTkvmEaVHg=",
   "Source": "BaiKiemTra02",
   "BasePath": "_content/BaiKiemTra02",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\BT\\asp_web\\BaiKiemTra02\\BaiKiemTra02\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaiKiemTra02.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\BT\\asp_web\\BaiKiemTra02\\BaiKiemTra02\\wwwroot\\anhchup\\Screenshot 2024-09-28 150151.png",
+      "SourceId": "BaiKiemTra02",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BT\\asp_web\\BaiKiemTra02\\BaiKiemTra02\\wwwroot\\",
+      "BasePath": "_content/BaiKiemTra02",
+      "RelativePath": "anhchup/Screenshot 2024-09-28 150151.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\anhchup\\Screenshot 2024-09-28 150151.png"
     },
     {
       "Identity": "D:\\BT\\asp_web\\BaiKiemTra02\\BaiKiemTra02\\wwwroot\\css\\site.css",
