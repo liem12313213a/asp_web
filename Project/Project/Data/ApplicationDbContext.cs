@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Project.Models;
 
 namespace Project.Data
 {
@@ -10,7 +9,5 @@ namespace Project.Data
             : base(options)
         {
         }
-        public DbSet<TheLoai> TheLoai { get; set; }
-        public DbSet<SanPham> SanPham { get; set; }
     }
 }
