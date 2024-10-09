@@ -1,0 +1,33 @@
+﻿<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ngày đặt hàng</th>
+                <th>tổng</th>
+                <th>mã cung cấp<th/>
+                <th>tình trạng<th/>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+
+        @foreach (var item in @ViewBag.Order)
+        {
+            <tbody>
+                <tr>
+                    <td width="20%">@string.Format("{0:dd/MM/yyyy}", item.order_date)</td>
+                    <td width="20%">@item.total_amount)</td>
+                    <td width="20%">@item.supplier)</td>
+                    <td width="20%">@item.order_status)</td>
+                    <td width="20%">
+                        <a asp-action="Edit" asp-route-id="@item.order_Id">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.order_Id">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.order_Id">Delete</a>
+
+                    </td>
+                </tr>
+            </tbody>
+        }
+
+    </table>
+    <a asp-controller="Order" asp-action="Create" class="btn btn-primary">Thêm mới</a>
+</div>
