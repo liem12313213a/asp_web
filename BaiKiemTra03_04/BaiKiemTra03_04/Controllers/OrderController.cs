@@ -18,7 +18,6 @@ namespace BaiKiemTra03_04.Controllers
         public IActionResult Index()
 
         {
-            // Get all orders with included Supplier information
             IEnumerable<Order> orders = _db.Order.Include("Suplier").ToList();
             return View(orders);
         }
