@@ -6,67 +6,92 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BaiKiemTra03_04.Controllers
 {
-    public class SupplierController : Controller
+
+public class SupplierController : Controller
     {
         private readonly ApplicationDbContext _db;
 
         public SupplierController(ApplicationDbContext db)
+
         {
             _db = db;
         }
 
         public IActionResult Index()
         {
-
-            IEnumerable<Supplier> supplier = _db.Supplier.Include("Order").ToList();
-            return View(supplier);
+            var suppliers = _db.Supplier.ToList();
+            ViewBag.Suppliers = suppliers;
+            return View();
         }
-        [HttpGet]
-        public IActionResult Upsert(int supplier_Id)
-        {
-            Supplier supplier = new Supplier();
-            IEnumerable<SelectListItem> dsorder = _db.Supplier.Select(
-                item => new SelectListItem
-                {
-                    Value = item.supplier_Id.ToString(),
-                    Text = item.supplier_name
-                });
-            ViewBag.DSOrder = dsorder;
 
-            if (supplier_Id == 0) // Create / Insert
-            {
-                return View(supplier);
-            }
-            else // Edit / Update
-            {
-                supplier = _db.Supplier.Include("Order").FirstOrDefault(sp => sp.supplier_Id == supplier_Id);
-                return View(supplier);
-            }
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
         }
 
         [HttpPost]
-        public IActionResult Upsert(Supplier supplier)
+        public IActionResult Create(Supplier supplier)
         {
             if (ModelState.IsValid)
+
             {
-                if (supplier.supplier_Id == 0)
-                {
-                    _db.Supplier.Add(supplier);
-                }
-                else
-                {
-                    _db.Supplier.Update(supplier);
-                }
+                _db.Supplier.Add(supplier);
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View();
+            return View(supplier);
+            // Re-render view with validation errors
         }
+
+        [HttpGet]
+        public IActionResult Edit(int supplier_Id)
+        {
+            if (supplier_Id == 0)
+            {
+                return NotFound();
+            }
+
+            var supplier = _db.Supplier.Find(supplier_Id);
+            if (supplier == null)
+            {
+                return NotFound();
+            }
+            return View(supplier);
+        }
+
         [HttpPost]
+        public IActionResult Edit(Supplier supplier)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Supplier.Update(supplier);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(supplier); // Re-render view with validation errors
+        }
+
+        [HttpGet]
         public IActionResult Delete(int supplier_Id)
         {
-            var supplier = _db.Supplier.FirstOrDefault(sp => sp.supplier_Id == supplier_Id);
+            if (supplier_Id == 0)
+            {
+                return NotFound();
+            }
 
+            var supplier = _db.Supplier.Find(supplier_Id);
+            if (supplier == null)
+            {
+                return NotFound();
+            }
+            return View(supplier);
+        }
+
+        [HttpPost]
+        public IActionResult DeleteConfirm(int supplier_Id)
+        {
+            var supplier = _db.Supplier.Find(supplier_Id);
             if (supplier == null)
             {
                 return NotFound();
@@ -74,7 +99,42 @@ namespace BaiKiemTra03_04.Controllers
 
             _db.Supplier.Remove(supplier);
             _db.SaveChanges();
-            return Json(new { success = true });
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Details(int supplier_Id)
+        {
+            if (supplier_Id == 0)
+            {
+                return NotFound();
+            }
+
+            var supplier = _db.Supplier.Find(supplier_Id);
+            if (supplier == null)
+            {
+                return NotFound();
+            }
+            return View(supplier);
+        }
+
+        [HttpGet]
+        public IActionResult Search(string searchString)
+        {
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                var suppliers = _db.Supplier
+                    .Where(s => s.supplier_name!.Contains(searchString))
+                    .ToList();
+                ViewBag.SearchString = searchString;
+                ViewBag.Suppliers = suppliers;
+            }
+            else
+            {
+                var suppliers = _db.Supplier.ToList();
+                ViewBag.Suppliers = suppliers;
+            }
+            return View("Index");
         }
     }
 }

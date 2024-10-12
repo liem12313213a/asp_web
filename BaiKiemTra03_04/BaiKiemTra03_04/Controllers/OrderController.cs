@@ -1,92 +1,102 @@
 ﻿using BaiKiemTra03_04.Data;
 using BaiKiemTra03_04.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace BaiKiemTra03_04.Controllers
 {
     public class OrderController : Controller
     {
-            private readonly ApplicationDbContext _db;
-            public OrderController(ApplicationDbContext db)
+        private readonly ApplicationDbContext _db;
+
+        public OrderController(ApplicationDbContext db)
+        {
+            _db = db;
+        }
+
+        public IActionResult Index()
+
+        {
+            // Get all orders with included Supplier information
+            IEnumerable<Order> orders = _db.Order.Include("Suplier").ToList();
+            return View(orders);
+        }
+
+        [HttpGet]
+        public IActionResult Upsert(int order_Id)
+        {
+            Order order;
+            IEnumerable<SelectListItem> dsSuppliers;
+
+            if (order_Id == 0) // Create
             {
-                _db = db;
-            }
-            public IActionResult Index()
-            {
-                var order = _db.Order.ToList();
-                ViewBag.order = order;
-                return View();
-            }
-            [HttpGet]
-            public IActionResult Create()
-            {
-                return View();
-            }
-            [HttpPost]
-            public IActionResult Create(Order order)
-            {
-                if (ModelState.IsValid)
+                order = new Order();
+                dsSuppliers = _db.Supplier.Select(s => new SelectListItem
                 {
-                    _db.Order.Add(order);
-                    _db.SaveChanges();
-                    return RedirectToAction("Index");
-                }
-                return View();
+                    Value = s.supplier_Id.ToString(),
+                    Text = s.supplier_name
+                });
             }
-            [HttpGet]
-            public IActionResult Edit(int order_Id)
+            else // Edit
             {
-                if (order_Id == 0)
+                order = _db.Order.Include(o => o.Supplier).FirstOrDefault(o => o.order_Id == order_Id);
+                dsSuppliers = _db.Supplier.Select(s => new SelectListItem
                 {
-                    return NotFound();
-                }
-                var order = _db.Order.Find(order_Id);
-                return View();
-            }
-            [HttpPost]
-            public IActionResult Edit(Order order)
-            {
-                if (ModelState.IsValid)
-                {
-                    _db.Order.Update(order);
-                    _db.SaveChanges();
-                    return RedirectToAction("Index");
-                }
-                return View();
-            }
-            [HttpGet]
-            public IActionResult Delete(int order_Id)
-            {
-                if (order_Id == 0)
-                {
-                    return NotFound();
-                }
-                var order = _db.Order.Find(order_Id);
-                return View();
-            }
-            [HttpPost]
-            public IActionResult DeleteConfirm(int order_Id)
-            {
-                var order = _db.Order.Find(order_Id);
+                    Value = s.supplier_Id.ToString(),
+                    Text = s.supplier_name
+                });
+
                 if (order == null)
                 {
                     return NotFound();
                 }
-                _db.Order.Remove(order);
+            }
+
+            ViewBag.DSSuppliers = dsSuppliers;
+            return View(order);
+        }
+
+        [HttpPost]
+        public IActionResult Upsert(Order order)
+        {
+            if (ModelState.IsValid)
+            {
+                if (order.order_Id == 0)
+                {
+                    _db.Order.Add(order);
+                }
+                else
+                {
+                    _db.Order.Update(order);
+                }
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            [HttpGet]
-            public IActionResult Details(int order_Id)
-            {
-                if (order_Id == 0)
-                {
-                    return NotFound();
-                }
 
-                var order = _db.Order.Find(order_Id);
-                return View(order);
+            // Repopulate dropdown list if validation fails
+            IEnumerable<SelectListItem> dsSuppliers = _db.Supplier.Select(s => new SelectListItem
+            {
+                Value = s.supplier_Id.ToString(),
+                Text = s.supplier_name
+            });
+            ViewBag.DSSuppliers = dsSuppliers;
+            return View(order);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(int order_Id)
+        {
+            var order = _db.Order.Find(order_Id);
+            if (order == null)
+            {
+                return NotFound();
             }
-     }
+
+            _db.Order.Remove(order);
+            _db.SaveChanges();
+            return Json(new { success = true });
+        }
+    }
 }
 

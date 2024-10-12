@@ -1,54 +1,32 @@
-﻿@model IEnumerable<Order>
-<div class="table">
-    <table>
+﻿<div class="container">
+    <table class="table">
         <thead>
             <tr>
-                <th>Mã đơn hàng</th>
-                <th>Ngày đặt hàng</th>
-                <th>Tổng giá trị</th>
-                <th>Nhà cung cấp</th>
-                <th>Tình trạng đơn hàng</th>
+                <th>Tên nhà cung cấp</th>
+                <th>Địa chỉ</th>
+                <th>Số điện thoại</th>
+                <th>Email</th>
                 <th>Chức năng</th>
             </tr>
         </thead>
+
         <tbody>
-            @foreach (var item in Model)
+            @foreach (var item in @ViewBag.Suppliers)
             {
                 <tr>
-                    <td>@item.order_Id</td>
-                    <td>@item.order_date.ToString("dd/MM/yyyy")</td>
-                    <td>@item.total_amount</td>
-                    <td>@item.phone_number  </td>
-                    <td>@item.order_status</td>
+                    <td>@item.supplier_name</td>
+                    <td>@item.address</td>
+                    <td>@item.phone_number</td>
+                    <td>@item.email</td>
                     <td>
-                        <a asp-action="Edit" asp-route-id="@item.order_Id">Edit</a>|
-                        <a asp-action="Details" asp-route-id="@item.order_Id">Details</a>|  
-
-                        <a href="#" onclick="confirmDelete(@item.order_Id, $(this))">Delete</a>
+                        <a asp-action="Edit" asp-route-id="@item.supplier_Id">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.supplier_Id">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.supplier_Id">Delete</a>
                     </td>
                 </tr>
             }
         </tbody>
     </table>
-    <a asp-controller="Order" asp-action="Create" class="btn btn-primary">Thêm mới</a>
+
+    <a asp-controller="Supplier" asp-action="Create" class="btn btn-primary">Thêm mới</a>
 </div>
-
-<script>
-    function confirmDelete(id, row) {
-        if (confirm("Bạn có chắc chắn xóa đơn hàng có mã " + id + "?")) {
-            xoa(id, $(row));
-        }
-    }
-
-    function xoa(idx, row) {
-        $.ajax({
-            url: 'Order/Delete', 
-            data: { id: idx },
-            type: "POST",
-            success: function (data) {
-                row.closest("tr").remove();
-            }
-        });
-    }
-</script>
-

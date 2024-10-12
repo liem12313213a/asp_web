@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using BaiKiemTra03_04.Data;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BaiKiemTra03_04.Models
 {
