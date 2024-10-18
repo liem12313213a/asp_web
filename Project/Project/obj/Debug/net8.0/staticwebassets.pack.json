@@ -1,599 +1,347 @@
 {
   "Files": [
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Project.bundle.scp.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Project.bundle.scp.css",
       "PackagePath": "staticwebassets\\Project.bundle.scp.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\css\\bootstrap.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\css\\icomoon.css",
-      "PackagePath": "staticwebassets\\css\\icomoon.css"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\css\\owl.carousel.min.css",
-      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\css\\responsive.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\css\\responsive.css",
       "PackagePath": "staticwebassets\\css\\responsive.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\FontAwesome.otf",
-      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\IcoMoon-Free.ttf",
-      "PackagePath": "staticwebassets\\fonts\\IcoMoon-Free.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-Black.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-Black.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-BlackItalic.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-BlackItalic.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-Bold.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-Bold.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-BoldItalic.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-BoldItalic.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-ExtraBold.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-ExtraBold.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-ExtraBoldItalic.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-ExtraBoldItalic.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-ExtraLight.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-ExtraLight.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-ExtraLightItalic.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-ExtraLightItalic.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-Italic.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-Italic.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-Light.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-Light.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-LightItalic.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-LightItalic.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-Medium.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-Medium.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-MediumItalic.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-MediumItalic.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-Regular.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-Regular.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-SemiBold.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-SemiBold.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-SemiBoldItalic.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-SemiBoldItalic.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-Thin.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-Thin.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\Poppins-ThinItalic.ttf",
-      "PackagePath": "staticwebassets\\fonts\\Poppins-ThinItalic.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\fontawesome-webfont.eot",
-      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\fontawesome-webfont.svg",
-      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\about.png",
-      "PackagePath": "staticwebassets\\images\\about.png"
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\images\\462446066_1589718778291082_9095983183004331198_n.png",
+      "PackagePath": "staticwebassets\\images\\462446066_1589718778291082_9095983183004331198_n.png"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\about_left.png",
-      "PackagePath": "staticwebassets\\images\\about_left.png"
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\images\\about-img.jpg",
+      "PackagePath": "staticwebassets\\images\\about-img.jpg"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\banner_img.png",
-      "PackagePath": "staticwebassets\\images\\banner_img.png"
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\images\\client-1.jpg",
+      "PackagePath": "staticwebassets\\images\\client-1.jpg"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\body_bg.png",
-      "PackagePath": "staticwebassets\\images\\body_bg.png"
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\images\\client-2.jpg",
+      "PackagePath": "staticwebassets\\images\\client-2.jpg"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\honet_img.png",
-      "PackagePath": "staticwebassets\\images\\honet_img.png"
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\images\\construction.svg",
+      "PackagePath": "staticwebassets\\images\\construction.svg"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\loading.gif",
-      "PackagePath": "staticwebassets\\images\\loading.gif"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\logo.png",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\logo1.png",
-      "PackagePath": "staticwebassets\\images\\logo1.png"
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\images\\maintenance.svg",
+      "PackagePath": "staticwebassets\\images\\maintenance.svg"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\menu_icon.png",
-      "PackagePath": "staticwebassets\\images\\menu_icon.png"
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\images\\professional-img.png",
+      "PackagePath": "staticwebassets\\images\\professional-img.png"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\quality1.png",
-      "PackagePath": "staticwebassets\\images\\quality1.png"
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\images\\s1.png",
+      "PackagePath": "staticwebassets\\images\\s1.png"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\quality2.png",
-      "PackagePath": "staticwebassets\\images\\quality2.png"
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\images\\s2.png",
+      "PackagePath": "staticwebassets\\images\\s2.png"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\quality3.png",
-      "PackagePath": "staticwebassets\\images\\quality3.png"
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\images\\s3.png",
+      "PackagePath": "staticwebassets\\images\\s3.png"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\quality4.png",
-      "PackagePath": "staticwebassets\\images\\quality4.png"
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\images\\slider-img.png",
+      "PackagePath": "staticwebassets\\images\\slider-img.png"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\quality5.png",
-      "PackagePath": "staticwebassets\\images\\quality5.png"
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\images\\tools.svg",
+      "PackagePath": "staticwebassets\\images\\tools.svg"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\quality6.png",
-      "PackagePath": "staticwebassets\\images\\quality6.png"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\quality7.png",
-      "PackagePath": "staticwebassets\\images\\quality7.png"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\quality8.png",
-      "PackagePath": "staticwebassets\\images\\quality8.png"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\images\\te.png",
-      "PackagePath": "staticwebassets\\images\\te.png"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\bootstrap.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\custom.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\js\\custom.js",
       "PackagePath": "staticwebassets\\js\\custom.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\jquery-3.0.0.min.js",
-      "PackagePath": "staticwebassets\\js\\jquery-3.0.0.min.js"
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\jquery.min.js",
-      "PackagePath": "staticwebassets\\js\\jquery.min.js"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\assets\\coloredbg.png",
-      "PackagePath": "staticwebassets\\js\\revolution\\assets\\coloredbg.png"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\assets\\gridtile.png",
-      "PackagePath": "staticwebassets\\js\\revolution\\assets\\gridtile.png"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\assets\\gridtile_3x3.png",
-      "PackagePath": "staticwebassets\\js\\revolution\\assets\\gridtile_3x3.png"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\assets\\gridtile_3x3_white.png",
-      "PackagePath": "staticwebassets\\js\\revolution\\assets\\gridtile_3x3_white.png"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\assets\\gridtile_white.png",
-      "PackagePath": "staticwebassets\\js\\revolution\\assets\\gridtile_white.png"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\assets\\loader.gif",
-      "PackagePath": "staticwebassets\\js\\revolution\\assets\\loader.gif"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\css\\closedhand.html",
-      "PackagePath": "staticwebassets\\js\\revolution\\css\\closedhand.html"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\css\\layers.css",
-      "PackagePath": "staticwebassets\\js\\revolution\\css\\layers.css"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\css\\navigation.css",
-      "PackagePath": "staticwebassets\\js\\revolution\\css\\navigation.css"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\css\\openhand.html",
-      "PackagePath": "staticwebassets\\js\\revolution\\css\\openhand.html"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\css\\settings.css",
-      "PackagePath": "staticwebassets\\js\\revolution\\css\\settings.css"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css",
-      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.eot",
-      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.eot"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.svg",
-      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.svg"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.ttf",
-      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.woff",
-      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.woff"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroked41d.eot",
-      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroked41d.eot"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\fonts\\revicons\\revicons90c6.eot",
-      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\revicons\\revicons90c6.eot"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\fonts\\revicons\\revicons90c6.svg",
-      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\revicons\\revicons90c6.svg"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\fonts\\revicons\\revicons90c6.ttf",
-      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\revicons\\revicons90c6.ttf"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\fonts\\revicons\\revicons90c6.woff",
-      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\revicons\\revicons90c6.woff"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.actions.min.js",
-      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.actions.min.js"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.carousel.min.js",
-      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.carousel.min.js"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js",
-      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js",
-      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.migration.min.js",
-      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.migration.min.js"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.navigation.min.js",
-      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.navigation.min.js"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.parallax.min.js",
-      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.parallax.min.js"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js",
-      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.video.min.js",
-      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.video.min.js"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\js\\jquery.themepunch.revolution.min.js",
-      "PackagePath": "staticwebassets\\js\\revolution\\js\\jquery.themepunch.revolution.min.js"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\revolution\\js\\jquery.themepunch.tools.min.js",
-      "PackagePath": "staticwebassets\\js\\revolution\\js\\jquery.themepunch.tools.min.js"
-    },
-    {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\BT\\asp_web\\Project\\Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\PC\\Downloads\\Project\\Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

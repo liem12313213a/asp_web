@@ -37,12 +37,18 @@ namespace Project.Controllers
         [HttpGet]
         public IActionResult Details(int id)
         {
-            var sanpham = _db.SanPham.FirstOrDefault(sp => sp.Id == id);
-            if(sanpham == null)
+            var sanpham = _db.SanPham.FirstOrDefault(s => s.Id == id);
+            if (sanpham == null)
             {
                 return NotFound();
             }
             return View(sanpham);
         }
+        public IActionResult FilterByTheLoai(int id)
+        {
+            IEnumerable<SanPham> sanpham = _db.SanPham.Include("TheLoai").Where(s => s.TheLoai.Id == id).ToList();
+            return View("Index",sanpham);
+        }
+
     }
 }

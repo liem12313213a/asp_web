@@ -3,24 +3,22 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Project.Data;
+using Project.Models;
 
 namespace Project.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles ="Admin")]
     public class SanPhamController : Controller
     {
         private readonly ApplicationDbContext _db;
-
         public SanPhamController(ApplicationDbContext db)
         {
             _db = db;
         }
-
         public IActionResult Index()
         {
-            // Lấy thông tin trong bảng sản phẩm và bao gồm thêm thông tin bảng TheLoai
-            IEnumerable<SanPham> sanpham = _db.SanPham.Include("TheLoai").ToList();
+            IEnumerable<SanPham> sanpham=_db.SanPham.Include("TheLoai").ToList();
             return View(sanpham);
         }
         [HttpGet]
@@ -33,6 +31,7 @@ namespace Project.Controllers
                     Value = item.Id.ToString(),
                     Text = item.Name
                 });
+
             ViewBag.DSTheLoai = dstheloai;
 
             if (id == 0) // Create / Insert
@@ -45,30 +44,28 @@ namespace Project.Controllers
                 return View(sanpham);
             }
         }
-
         [HttpPost]
-        public IActionResult Upsert(SanPham sanPham)
+        public IActionResult Upsert(SanPham sanpham)
         {
             if (ModelState.IsValid)
             {
-                if (sanPham.Id == 0)
+                if (sanpham.Id == 0)
                 {
-                    _db.SanPham.Add(sanPham);
+                    _db.SanPham.Add(sanpham);
                 }
                 else
                 {
-                    _db.SanPham.Update(sanPham);
+                    _db.SanPham.Update(sanpham);
                 }
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View();
+            return View(sanpham);
         }
         [HttpPost]
         public IActionResult Delete(int id)
         {
             var sanpham = _db.SanPham.FirstOrDefault(sp => sp.Id == id);
-
             if (sanpham == null)
             {
                 return NotFound();
@@ -76,7 +73,16 @@ namespace Project.Controllers
 
             _db.SanPham.Remove(sanpham);
             _db.SaveChanges();
-            return Json(new{success= true});
+
+            return Json(new { success = true });
         }
+
+        public IActionResult FilterByTheLoai(int id)
+        {
+            IEnumerable<SanPham> sanpham = _db.SanPham.Include("TheLoai").Where(s => s.TheLoai.Id == id).ToList();
+            return View("Index", sanpham);
+        }
+
+
     }
 }
