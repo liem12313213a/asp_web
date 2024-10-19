@@ -1,8 +1,10 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Project.Data;
 using Project.Models;
 using System.Diagnostics;
+using System.Security.Claims;
 
 namespace Project.Controllers
 {
@@ -35,19 +37,36 @@ namespace Project.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
         [HttpGet]
-        public IActionResult Details(int id)
+        public IActionResult Details(int sanphamid)
         {
-            var sanpham = _db.SanPham.FirstOrDefault(s => s.Id == id);
-            if (sanpham == null)
+            GioHang giohang = new GioHang()
             {
-                return NotFound();
-            }
-            return View(sanpham);
+                SanPhamId = sanphamid,
+                SanPham = _db.SanPham.Include("TheLoai").FirstOrDefault(sp => sp.Id == sanphamid),
+                Quantity = 1
+            };
+            return View(giohang);
+        }
+        [HttpPost]
+        [Authorize]
+        public IActionResult Details(GioHang giohang)
+        {
+            // Lay thong tin dang nhap
+            var identity = (ClaimsIdentity)User.Identity;
+            var claim = identity.FindFirst(ClaimTypes.NameIdentifier);
+
+            giohang.ApplicationUserId = claim.Value;
+
+            // Luu xuong co so du lieu
+            _db.GioHang.Add(giohang);
+            _db.SaveChanges();
+
+            return RedirectToAction("Index");
         }
         public IActionResult FilterByTheLoai(int id)
         {
             IEnumerable<SanPham> sanpham = _db.SanPham.Include("TheLoai").Where(s => s.TheLoai.Id == id).ToList();
-            return View("Index",sanpham);
+            return View("Index", sanpham);
         }
 
     }

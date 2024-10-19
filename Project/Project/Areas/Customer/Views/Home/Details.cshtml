@@ -1,68 +1,53 @@
-﻿﻿
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Detail Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">>
-    <style>
+﻿@model GioHang
+<style>
+    .product-image {
+        max-width: 100%;
+        height: auto;
+    }
 
-        .product-image {
-            max-width: 100%;
-            height: auto;
+    .quantity-control {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+
+        .quantity-control button {
+            width: 30px;
+            height: 30px;
         }
 
-        .quantity-control {
-            display: flex;
-            justify-content: left;
-            align-items: center;
-        }
-
-            .quantity-control button {
-                width: 40px;
-                height: 40px;
-            }
-
-        .quantity-input {
-            width: 60px;
-            text-align: center;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="container mt-5">
-        <div class="row">
-            <!-- Product Image -->
-            <div class="col-md-6">
-                <img src="@Model.ImageUrl" alt="Product Image" class="product-image">
-            </div>
-
-            <!-- Product Details -->
-            <div class="col-md-6">
-                <h1 class="product-title" style="color:lightslategray">@Model.Name</h1>
-                <p class="card-text" style="min-height: 80px; max-height: 80px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">@Model.Description</p>
-                <h4 class="card-title text-danger">@Model.Price.ToString("N0") VND</h4>
-
-                <!-- Quantity Selector -->
-                <div class="quantity-control my-3">
-                    <button class="btn btn-outline-secondary" onclick="decreaseQuantity()">-</button>
-                    <input type="text" class="form-control quantity-input mx-2" id="quantity" value="1" readonly>
-                    <button class="btn btn-outline-secondary" onclick="increaseQuantity()">+</button>
-                </div>
-                <div class="d-flex justify-content-between">
-                    <div class="col-6">
-                        <a href="#" class="btn btn-primary">Thêm &#9745;</a>
-                        <a href="#" class="btn btn-primary">Mua hàng</a>
-                    </div>
-                </div>
-            </div>
+    .quantity-input {
+        width: 60px;
+        text-align: center;
+    }
+</style>
+<div class="container mt-5">
+    <form method="post">
+    <div class="row">
+        <!-- Product Image -->
+        <div class="col-md-6">
+            <img src="@Model.SanPham.ImageUrl" alt="Product Image" class="product-image">
         </div>
-    </div>
 
-    <!-- Bootstrap JS and Popper.js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JavaScript -->
+        <!-- Product Details -->
+        <div class="col-md-6">
+            <h1 class="product-title">@Model.SanPham.Name</h1>
+            <p class="product-description">@Model.SanPham.Description</p>
+            <h4 class="product-price text-danger">
+                @Model.SanPham.Price.ToString("N0") đ
+            </h4>
+
+            <!-- Quantity Selector -->
+            <div class="quantity-control my-3">
+                <a class="btn btn-outline-secondary" onclick="decreaseQuantity()">-</a>
+                <input asp-for="@Model.Quantity" id="quantity" type="number" class="form-control quantity-input mx-2" id="quantity" value="1" readonly>
+                <a class="btn btn-outline-secondary" onclick="increaseQuantity()">+</a>
+            </div>
+
+            <button class="btn btn-primary" onclick="addToCart()">Thêm vào giỏ hàng</button>
+    </div>
+    </form>
+</div> <!-- Custom JavaScript -->
     <script>
         function increaseQuantity() {
             var quantityInput = document.getElementById('quantity');
@@ -77,6 +62,21 @@
                 quantityInput.value = currentValue - 1;
             }
         }
+
+        function addToCart() {
+            var quantity = document.getElementById('quantity').value;
+            var messageDiv = document.getElementById('cart-message');
+
+            // Display success message
+            messageDiv.classList.remove('d-none');
+            messageDiv.textContent = 'Product added to cart! Quantity: ' + quantity;
+
+            // Optionally, you can reset the quantity back to 1 after adding to cart
+            document.getElementById('quantity').value = 1;
+
+            // Hide message after 3 seconds
+            setTimeout(function () {
+                messageDiv.classList.add('d-none');
+            }, 3000);
+        }
     </script>
-</body>
-</html>
