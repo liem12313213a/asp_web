@@ -1,6 +1,10 @@
 ﻿@model TheLoai
 <div class="container">
-    <h3>Xác nhận xoá thể loại</h3>
+    <div class="col-md-12">
+        <div class="titlepage">
+            <h2>Xóa thể loại</h2>
+        </div>
+    </div>
     <form method="post" asp-action="DeleteConfirm">
         <input asp-for="Id" type="hidden" />
         <div asp-validation-summary="All" class="text-danger"></div>

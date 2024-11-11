@@ -36,8 +36,30 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-    name: "default",
+    name: "trang-chu",
     pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
+    name: "trang-chu",
+    pattern: "trang-chu/{area=Customer}/{controller=Home}/{action=Index}/{id?}",
+    defaults: new { controller = "Home", action = "Index" });
+
+app.MapControllerRoute(
+    name: "about",
+    pattern: "about/{area=Customer}/{controller=Nhom}/{action=Index}/{id?}",
+    defaults: new { controller = "Nhom", action = "Index" });
+app.MapControllerRoute(
+    name: "service",
+    pattern: "service/{area=Customer}/{controller=Nhom}/{action=Index3}/{id?}",
+    defaults: new { controller = "Nhom", action = "Index3" });
+app.MapControllerRoute(
+    name: "contact",
+    pattern: "contact/{area=Customer}/{controller=Nhom}/{action=Index2}/{id?}",
+    defaults: new { controller = "Nhom", action = "Index2" });
+app.MapControllerRoute(
+    name: "sales",
+    pattern: "sales/{area=Customer}/{controller=Nhom}/{action=Index1}/{id?}",
+    defaults: new { controller = "Nhom", action = "Index1" });
 
 
 app.MapRazorPages();

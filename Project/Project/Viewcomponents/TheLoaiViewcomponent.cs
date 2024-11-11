@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Project.Data;
+using Project.Models;
+using System.Diagnostics;
 namespace Project.Viewcomponents
 {
     public class TheLoaiViewcomponent : ViewComponent
@@ -11,7 +14,7 @@ namespace Project.Viewcomponents
         }
         public IViewComponentResult Invoke()
         {
-            var theloai = _db.TheLoai.ToList();
+            var theloai= _db.TheLoai.ToList();
             return View(theloai);
         }
     }

@@ -1,0 +1,82 @@
+﻿@model IEnumerable<HoaDon>
+
+<style>
+
+    .container {
+        margin-top: 20px;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            color: black; 
+            font-size: 1.1em;
+        }
+
+        .table th {
+            background-color: #4CAF50;
+            color: black;
+        }
+
+
+
+        .table td {
+            background-color: transparent; 
+        }
+
+            .table td a {
+                color: #4CAF50;
+                text-decoration: none;
+            }
+
+                .table td a:hover {
+                    text-decoration: underline;
+                }
+</style>
+
+
+
+<div class="container">
+    <div class="col-md-12">
+        <div class="titlepage">
+            <h2>Đơn hàng</h2>
+        </div>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Tên khách hàng</th>
+                <th>Số điện thoại</th>
+                <th>Địa chỉ</th>
+                <th>Thời gian đặt hàng</th>
+                <th>Trạng thái đơn hàng</th>
+                <th>Tồng tiền</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.PhoneNumber</td>
+                    <td>@item.Address</td>
+                    <td>@item.OrderDate.ToString("dd/MM/yyyy")</td>
+                    <td>@item.OrderStatus</td>
+                    <td class="text-danger">@item.Total.ToString("#,0")đ</td>
+                    <td>
+                        <a asp-action="ChiTietHoaDon">Chi tiết đơn hàng</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

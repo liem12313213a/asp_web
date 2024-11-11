@@ -1,16 +1,21 @@
-﻿@page
+﻿
+@page
 @model LoginModel
-
-@{
-    ViewData["Title"] = "Log in";
-}
-
-<h1>@ViewData["Title"]</h1>
+<style>
+    h2,h3{
+        color: forestgreen;
+    }
+</style>
 <div class="row">
+    <div class="col-md-12">
+        <div class="titlepage">
+            <h2>Đăng nhập tài khoản</h2>
+        </div>
+    </div>
     <div class="col-md-4">
         <section>
             <form id="account" method="post">
-                <h2>Use a local account to log in.</h2>
+                <h2>Nhập tài khoản bạn đã tạo.</h2>
                 <hr />
                 <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
                 <div class="form-floating mb-3">
@@ -48,16 +53,20 @@
     </div>
     <div class="col-md-6 col-md-offset-2">
         <section>
-            <h3>Use another service to log in.</h3>
+            <h3>Hoặc sử dụng các tài khoản khác để đăng nhập</h3>
             <hr />
             @{
                 if ((Model.ExternalLogins?.Count ?? 0) == 0)
                 {
                     <div>
-                        <p>
-                            There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">article
-                            about setting up this ASP.NET application to support logging in via external services</a>.
-                        </p>
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">                               
+                                <ul class="social_icon">
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
                     </div>
                 }
                 else

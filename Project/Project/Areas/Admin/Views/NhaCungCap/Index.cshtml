@@ -1,0 +1,44 @@
+﻿@model IEnumerable<NhaCungCap>
+<div class="container">
+    <div class="col-md-12">
+        <div class="titlepage">
+            <h2>Quản lý Nhà Cung Cấp</h2>
+        </div>
+    </div>
+
+    <form asp-action="Index" method="get">
+        <input type="text" name="searchString" placeholder="Nhập nhà cung cấp cần tìm..." value="@ViewBag.SearchString" />
+        <input type="submit" value="Tìm kiếm" />
+    </form>
+
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Tên nhà cung cấp</th>
+                    <th>Địa chỉ</th>
+                    <th>Số điện thoại</th>
+                    <th>Email</th>
+                    <th>Chức năng</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Address</td>
+                        <td>@item.Phone</td>
+                        <td>@item.Email</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id">Sửa</a> -
+                            <a asp-action="Details" asp-route-id="@item.Id">Chi tiết</a> -
+                            <a asp-action="Delete" asp-route-id="@item.Id">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a asp-controller="NhaCungCap" asp-action="Create" class="btn btn-primary">Thêm mới</a>
+    </div>
+</div>

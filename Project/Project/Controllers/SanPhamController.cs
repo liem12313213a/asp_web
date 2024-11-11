@@ -12,77 +12,131 @@ namespace Project.Controllers
     public class SanPhamController : Controller
     {
         private readonly ApplicationDbContext _db;
+
         public SanPhamController(ApplicationDbContext db)
         {
             _db = db;
         }
+
+
         public IActionResult Index()
         {
-            IEnumerable<SanPham> sanpham = _db.SanPham.Include("TheLoai").ToList();
+            var sanpham = _db.SanPham
+                .Include(s => s.TheLoai)
+                .Include(s => s.NhaCungCap)
+                .ToList();
+
+            ViewBag.DSTheLoai = _db.TheLoai
+                .Select(t => new SelectListItem
+                {
+                    Text = t.Name,
+                    Value = t.Id.ToString()
+                })
+                .ToList();
+
+            ViewBag.DSNhaCungCap = _db.NhaCungCap
+                .Select(n => new SelectListItem
+                {
+                    Text = n.Name,
+                    Value = n.Id.ToString()
+                })
+                .ToList();
+
             return View(sanpham);
         }
+
         [HttpGet]
-        public IActionResult Upsert(int id)
+        public IActionResult Upsert(int? id)
         {
-            SanPham sanpham = new SanPham();
-            IEnumerable<SelectListItem> dstheloai = _db.TheLoai.Select(
-                item => new SelectListItem
+            ViewBag.DSTheLoai = _db.TheLoai
+                .Select(t => new SelectListItem
                 {
-                    Value = item.Id.ToString(),
-                    Text = item.Name
-                });
+                    Text = t.Name,
+                    Value = t.Id.ToString()
+                })
+                .ToList();
 
-            ViewBag.DSTheLoai = dstheloai;
+            ViewBag.DSNhaCungCap = _db.NhaCungCap
+                .Select(n => new SelectListItem
+                {
+                    Text = n.Name,
+                    Value = n.Id.ToString()
+                })
+                .ToList();
+            if (id != null)
+            {
+                var sanPham = _db.SanPham
+                    .Include(s => s.TheLoai)
+                    .Include(s => s.NhaCungCap)
+                    .FirstOrDefault(s => s.Id == id);
 
-            if (id == 0) // Create / Insert
-            {
-                return View(sanpham);
+                if (sanPham == null)
+                {
+                    return NotFound();
+                }
+
+                return View(sanPham); 
             }
-            else // Edit / Update
-            {
-                sanpham = _db.SanPham.Include("TheLoai").FirstOrDefault(sp => sp.Id == id);
-                return View(sanpham);
-            }
+
+            return View(new SanPham()); 
         }
+
         [HttpPost]
-        public IActionResult Upsert(SanPham sanpham)
+        public IActionResult Upsert(SanPham sanPham)
         {
             if (ModelState.IsValid)
             {
-                if (sanpham.Id == 0)
+                if (sanPham.Id == 0)
                 {
-                    _db.SanPham.Add(sanpham);
+                    _db.SanPham.Add(sanPham);
                 }
                 else
                 {
-                    _db.SanPham.Update(sanpham);
+                    _db.Update(sanPham);
                 }
+
                 _db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
-            return View(sanpham);
+
+            ViewBag.DSTheLoai = _db.TheLoai
+                .Select(t => new SelectListItem
+                {
+                    Text = t.Name,
+                    Value = t.Id.ToString()
+                })
+                .ToList();
+
+            ViewBag.DSNhaCungCap = _db.NhaCungCap
+                .Select(n => new SelectListItem
+                {
+                    Text = n.Name,
+                    Value = n.Id.ToString()
+                })
+                .ToList();
+
+            return View(sanPham);
         }
+
         [HttpPost]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(int? id)
         {
-            var sanpham = _db.SanPham.FirstOrDefault(sp => sp.Id == id);
-            if (sanpham == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            _db.SanPham.Remove(sanpham);
+            var sanPham = _db.SanPham.FirstOrDefault(s => s.Id == id);
+            if (sanPham == null)
+            {
+                return NotFound();
+            }
+
+            _db.SanPham.Remove(sanPham);
             _db.SaveChanges();
 
-            return Json(new { success = true });
+            return RedirectToAction(nameof(Index));
         }
-
-        public IActionResult FilterByTheLoai(int id)
-        {
-            IEnumerable<SanPham> sanpham = _db.SanPham.Include("TheLoai").Where(s => s.TheLoai.Id == id).ToList();
-            return View("Index", sanpham);
-        }
-
-
+       
     }
 }

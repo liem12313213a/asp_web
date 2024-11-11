@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Project.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authorization;
 using Project.Data;
-using Project.Models;
 
 namespace Project.Controllers
 {
@@ -9,7 +11,7 @@ namespace Project.Controllers
     [Authorize(Roles = "Admin")]
     public class TheLoaiController : Controller
     {
-
+  
         private readonly ApplicationDbContext _db;
         public TheLoaiController(ApplicationDbContext db)
         {
@@ -18,7 +20,7 @@ namespace Project.Controllers
         public IActionResult Index()
         {
             var theloai = _db.TheLoai.ToList();
-
+         
             ViewBag.theloai = theloai;
             return View();
         }
@@ -75,7 +77,7 @@ namespace Project.Controllers
             return View(theloai);
         }
         [HttpGet]
-        public IActionResult Details(int id)
+        public IActionResult Details (int id)
         {
             if (id == 0)
             {
@@ -103,13 +105,13 @@ namespace Project.Controllers
             if (!string.IsNullOrEmpty(searchString))
             {
                 var theloai = _db.TheLoai.Where(tl => tl.Name.Contains(searchString)).ToList();
-                ViewBag.SearchString = searchString;
-                ViewBag.TheLoai = theloai;
+                ViewBag.SearchString=searchString;
+                ViewBag.TheLoai=theloai;
             }
             else
             {
-                var theloai = _db.TheLoai.ToList();
-                ViewBag.Theloai = theloai;
+                var theloai=_db.TheLoai.ToList();
+                ViewBag.Theloai=theloai;
             }
             return View("Index");
         }

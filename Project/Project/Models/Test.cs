@@ -1,0 +1,17 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
+
+namespace Project.Models
+{
+    public class Test 
+    {
+        [Key]
+        public int Id { get; set; }
+        [Required(ErrorMessage = "Không được để rỗng tên thể loại!")]
+        [Display(Name = "Thể loại")]
+        public string Name { get; set; }
+        [Required(ErrorMessage = "Không đúng định dạng ngày tháng năm!")]
+        [Display(Name = "Ngày tạo")]
+        public DateTime DateCreated { get; set; } = DateTime.Now;
+    }
+}

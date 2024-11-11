@@ -5,10 +5,10 @@
         Sản Phẩm
     </a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-       @foreach(var item in Model)
+        @foreach (var item in Model)
         {
-           <a class="dropdown-item" asp-action="FilterByTheLoai" asp-route-id="@item.Id">@item.Name</a>
+            <a class="dropdown-item" asp-action="FilterByTheLoai" asp-route-id="@item.Id">@item.Name</a>
         }
-       
+
     </div>
 </li>
